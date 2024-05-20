@@ -1,16 +1,20 @@
 ---
-title: "Project One"
-summary: "Lorem ipsum dolor sit amet"
+title: "Radis App"
+summary: "A web app for high-resolution infrared molecular spectra using RADIS"
 date: "Mar 18 2022"
 draft: false
 tags:
-- Astro
-- Javascript
 - Typescript
-- Tailwind
-- SolidJs
-demoUrl: https://astro-sphere-demo.vercel.app
-repoUrl: https://github.com/markhorn-dev/astro-sphere
+- MUI
+
+demoUrl: https://www.radis.app/
+repoUrl: https://github.com/arunavabasucom/radis-app
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+![blog placeholder](/radisapp.png)
+
+RADIS app is a web application for Radis high-resolution infrared molecular spectra. Instead of writing code, this project aims to create an intuitive user interface (UI).
+
+It use radis internally to produce spectrum, and the updated version and radis algorithm make it incredibly efficient to compute the millions of lines in only a few minutes.
+
+Radis app leverages React 18 to offer the user interface, and FastApi on the backend. We are using react-hook-form for the fastest user experience and to maintain performance on the client slide. In the backend, we use FastApi to offer the fastest response.
