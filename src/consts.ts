@@ -54,12 +54,6 @@ export const LINKS: Links = [
 // Socials
 export const SOCIALS: Socials = [
   {
-    NAME: "Email",
-    ICON: "email",
-    TEXT: "arunava.basu@arunavabasu.com",
-    HREF: "mailto:arunava.basu@arunavabasu.com",
-  },
-  {
     NAME: "Github",
     ICON: "github",
     TEXT: "arunavabasucom",
@@ -77,5 +71,17 @@ export const SOCIALS: Socials = [
     TEXT: "arunavabasucom",
     HREF: "https://x.com/arunavabasucom",
   },
+  {
+    NAME: "Resume",
+    ICON: "doc",
+    TEXT: "links.arunavabasu.com/resume",
+    HREF: "https://links.arunavabasu.com/resume",
+  },
+  {
+    NAME: "Email",
+    ICON: "email",
+    TEXT: "arunava.basu@arunavabasu.com",
+    HREF: "mailto:arunava.basu@arunavabasu.com",
+  }
 ];
 
